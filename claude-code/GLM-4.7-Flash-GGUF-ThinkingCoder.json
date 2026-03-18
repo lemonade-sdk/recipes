@@ -1,0 +1,18 @@
+{
+    "checkpoints": {
+        "main": "unsloth/GLM-4.7-Flash-GGUF:GLM-4.7-Flash-UD-Q4_K_XL.gguf",
+    },
+    "model_name": "user.GLM-4.7-Flash-GGUF",
+    "labels": [
+        "vision",
+        "hot",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 0,
+        "llamacpp_args": "--temp 0.7 --top-p 1 --min-p 0.01 -b 4096 -ub 1024",
+        "llamacpp_backend": "vulkan"
+    },
+    "size": 19.7
+}
