@@ -1,6 +1,6 @@
 {
     "checkpoints": {
-        "main": "unsloth/GLM-4.7-Flash-GGUF:GLM-4.7-Flash-UD-Q4_K_XL.gguf",
+        "main": "unsloth/GLM-4.7-Flash-GGUF:GLM-4.7-Flash-UD-Q4_K_XL.gguf"
     },
     "model_name": "user.GLM-4.7-Flash-GGUF",
     "labels": [
