@@ -1,0 +1,19 @@
+{
+    "checkpoints": {
+        "main": "unsloth/gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M"
+    },
+    "model_name": "user.Gemma-4-26B-A4B-NoThinking",
+    "labels": [
+        "vision",
+        "hot",
+        "tool-calling",
+	"llamacpp"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 0,
+        "llamacpp_args": "--temp 1 --top-p 0.95 --top-k 64 -b 4096 -ub 1024 --spec-type ngram-mod --spec-ngram-size-n 24 --draft-min 48 --draft-max 64",
+        "llamacpp_backend": "vulkan"
+    },
+    "size": 16.9
+}
