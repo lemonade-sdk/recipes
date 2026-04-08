@@ -2,7 +2,7 @@
     "checkpoints": {
         "main": "unsloth/gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M"
     },
-    "model_name": "user.Gemma-4-26B-A4B-NoThinking",
+    "model_name": "user.Gemma-4-26B-A4B-ThinkingCoder",
     "labels": [
         "vision",
         "hot",
