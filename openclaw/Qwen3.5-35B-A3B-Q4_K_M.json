@@ -1,0 +1,12 @@
+{
+    "checkpoint": "unsloth/Qwen3.5-35B-A3B-GGUF:Qwen3.5-35B-A3B-Q4_K_M.gguf",
+    "model_name": "user.Qwen3.5-35B-A3B-Q4_K_M",
+    "labels": [
+        "appear-builtin",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 32768
+    }
+}
