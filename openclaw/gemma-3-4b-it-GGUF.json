@@ -1,7 +1,7 @@
 {
     "checkpoints": {
         "main": "unsloth/gemma-3-4b-it-GGUF:gemma-3-4b-it-Q4_K_M.gguf",
-        "mmproj": "mmproj-model-bf16.gguf"
+        "mmproj": "mmproj-BF16.gguf"
     },
     "model_name": "user.gemma-3-4b-it-GGUF",
     "labels": [
