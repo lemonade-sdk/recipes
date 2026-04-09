@@ -1,0 +1,17 @@
+{
+    "checkpoints": {
+        "main": "Qwen/Qwen3-VL-8B-Instruct-GGUF:Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+        "mmproj": "Qwen/Qwen3-VL-8B-Instruct-GGUF:mmproj-Qwen3VL-8B-Instruct-F16.gguf"
+    },
+    "model_name": "user.Qwen3-VL-8B-Instruct-GGUF",
+    "labels": [
+        "appear-builtin",
+        "vision",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 16384
+    },
+    "size": 5.03
+}

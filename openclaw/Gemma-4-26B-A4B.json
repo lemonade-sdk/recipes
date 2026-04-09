@@ -1,0 +1,17 @@
+{
+    "checkpoints": {
+        "main": "unsloth/gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M",
+        "mmproj": "unsloth/gemma-4-26B-A4B-it-GGUF:mmproj-model-f16.gguf"
+    },
+    "model_name": "user.Gemma-4-26B-A4B",
+    "labels": [
+        "appear-builtin",
+        "vision",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 32768
+    },
+    "size": 16.9
+}

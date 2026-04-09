@@ -1,0 +1,13 @@
+{
+    "checkpoint": "unsloth/Qwen2.5-Coder-7B-Instruct-128K-GGUF:Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+    "model_name": "user.Qwen2.5-Coder-7B-Instruct-128K-GGUF",
+    "labels": [
+        "appear-builtin",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 16384
+    },
+    "size": 4.68
+}
