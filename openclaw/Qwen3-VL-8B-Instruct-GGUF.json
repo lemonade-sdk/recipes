@@ -1,7 +1,7 @@
 {
     "checkpoints": {
         "main": "Qwen/Qwen3-VL-8B-Instruct-GGUF:Qwen3VL-8B-Instruct-Q4_K_M.gguf",
-        "mmproj": "Qwen/Qwen3-VL-8B-Instruct-GGUF:mmproj-Qwen3VL-8B-Instruct-F16.gguf"
+        "mmproj": "mmproj-Qwen3VL-8B-Instruct-F16.gguf"
     },
     "model_name": "user.Qwen3-VL-8B-Instruct-GGUF",
     "labels": [

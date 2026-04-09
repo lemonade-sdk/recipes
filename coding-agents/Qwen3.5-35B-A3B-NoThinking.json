@@ -1,7 +1,7 @@
 {
     "checkpoints": {
         "main": "unsloth/Qwen3.5-35B-A3B-GGUF:Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf",
-        "mmproj": "unsloth/Qwen3.5-35B-A3B-GGUF:mmproj-F16.gguf"
+        "mmproj": "mmproj-F16.gguf"
     },
     "model_name": "user.Qwen3.5-35B-A3B-NoThinking",
     "labels": [
