@@ -11,7 +11,7 @@
     ],
     "recipe": "llamacpp",
     "recipe_options": {
-        "ctx_size": 16384
+        "ctx_size": 32768
     },
     "size": 5.03
 }
