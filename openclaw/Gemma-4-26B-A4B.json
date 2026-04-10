@@ -3,7 +3,7 @@
         "main": "unsloth/gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M",
         "mmproj": "mmproj-F16.gguf"
     },
-    "model_name": "openclaw.Gemma-4-26B-A4B-GGUF",
+    "model_name": "user.Gemma-4-26B-A4B-GGUF",
     "labels": [
         "vision",
         "tool-calling"

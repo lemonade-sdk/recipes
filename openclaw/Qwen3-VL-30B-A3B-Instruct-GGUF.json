@@ -3,7 +3,7 @@
         "main": "unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF:Qwen3-VL-30B-A3B-Instruct-Q4_K_M.gguf",
         "mmproj": "mmproj-F16.gguf"
     },
-    "model_name": "openclaw.Qwen3-VL-30B-A3B-Instruct-GGUF",
+    "model_name": "user.Qwen3-VL-30B-A3B-Instruct-GGUF",
     "labels": [
         "vision",
         "tool-calling"
