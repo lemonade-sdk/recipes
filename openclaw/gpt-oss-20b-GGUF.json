@@ -1,8 +1,7 @@
 {
     "checkpoint": "unsloth/gpt-oss-20b-GGUF:gpt-oss-20b-Q4_K_M.gguf",
-    "model_name": "user.gpt-oss-20b-GGUF",
+    "model_name": "openclaw.gpt-oss-20b-GGUF",
     "labels": [
-        "appear-builtin",
         "tool-calling"
     ],
     "recipe": "llamacpp",

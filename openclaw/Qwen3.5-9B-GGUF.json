@@ -1,6 +1,6 @@
 {
-    "checkpoint": "unsloth/Qwen3-8B-GGUF:Qwen3-8B-Q4_K_M.gguf",
-    "model_name": "openclaw.Qwen3-8B-GGUF",
+    "checkpoint": "unsloth/Qwen3.5-9B-GGUF:Qwen3.5-9B-Q4_K_M.gguf",
+    "model_name": "openclaw.Qwen3.5-9B-GGUF",
     "labels": [
         "tool-calling"
     ],
@@ -8,5 +8,5 @@
     "recipe_options": {
         "ctx_size": 32768
     },
-    "size": 5.03
+    "size": 5.68
 }
