@@ -10,7 +10,8 @@
     ],
     "recipe": "llamacpp",
     "recipe_options": {
-        "ctx_size": 32768
+        "ctx_size": 32768,
+        "llamacpp_args": "--chat-template-kwargs '{\"enable_thinking\": false}'"
     },
     "size": 16.9
 }
