@@ -1,9 +1,8 @@
 {
     "checkpoints": {
-        "main": "unsloth/Qwen3.5-35B-A3B-GGUF:Qwen3.5-35B-A3B-Q4_K_M.gguf",
-        "mmproj": "mmproj-F16.gguf"
+        "main": "unsloth/GLM-4.7-Flash-GGUF:GLM-4.7-Flash-UD-Q4_K_XL.gguf"
     },
-    "model_name": "user.Qwen3.5-35B-A3B-Q4_K_M",
+    "model_name": "user.GLM-4.7-Flash-GGUF",
     "labels": [
         "vision",
         "tool-calling"
@@ -12,5 +11,5 @@
     "recipe_options": {
         "ctx_size": 32768
     },
-    "size": 22.0
+    "size": 19.7
 }

@@ -1,9 +1,9 @@
 {
     "checkpoints": {
-        "main": "unsloth/Qwen3.5-35B-A3B-GGUF:Qwen3.5-35B-A3B-Q4_K_M.gguf",
+        "main": "unsloth/Qwen3.5-9B-GGUF:Qwen3.5-9B-Q4_K_M.gguf",
         "mmproj": "mmproj-F16.gguf"
     },
-    "model_name": "user.Qwen3.5-35B-A3B-Q4_K_M",
+    "model_name": "user.Qwen3.5-9B-GGUF",
     "labels": [
         "vision",
         "tool-calling"
@@ -12,5 +12,5 @@
     "recipe_options": {
         "ctx_size": 32768
     },
-    "size": 22.0
+    "size": 5.68
 }
