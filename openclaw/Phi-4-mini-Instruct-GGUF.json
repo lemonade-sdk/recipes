@@ -1,0 +1,12 @@
+{
+    "checkpoint": "unsloth/Phi-4-mini-Instruct-GGUF:Phi-4-mini-Instruct-Q4_K_M.gguf",
+    "model_name": "user.Phi-4-mini-Instruct-GGUF",
+    "labels": [
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 32768
+    },
+    "size": 2.3
+}
