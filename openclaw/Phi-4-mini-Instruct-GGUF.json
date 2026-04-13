@@ -1,5 +1,5 @@
 {
-    "checkpoint": "unsloth/Phi-4-mini-Instruct-GGUF:Q4_K_M",
+    "checkpoint": "unsloth/Phi-4-mini-Instruct-GGUF",
     "model_name": "user.Phi-4-mini-Instruct-GGUF",
     "labels": [
         "tool-calling"
