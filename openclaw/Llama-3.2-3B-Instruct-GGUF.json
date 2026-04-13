@@ -1,0 +1,12 @@
+{
+    "checkpoint": "unsloth/Llama-3.2-3B-Instruct-GGUF:Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "model_name": "user.Llama-3.2-3B-Instruct-GGUF",
+    "labels": [
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 16384
+    },
+    "size": 2.0
+}
