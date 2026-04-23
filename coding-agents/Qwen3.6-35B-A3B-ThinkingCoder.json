@@ -12,7 +12,7 @@
     "recipe": "llamacpp",
     "recipe_options": {
         "ctx_size": 0,
-        "llamacpp_args": "--temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.00 --presence-penalty 0 --repeat-penalty 1.0 -b 4096 -ub 1024",
+        "llamacpp_args": "--temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.00 --presence-penalty 0 --repeat-penalty 1.0 --spec-type ngram-mod --spec-ngram-size-n 24 --draft-min 48 --draft-max 64 -b 4096 -ub 1024",
         "llamacpp_backend": "vulkan"
     },
     "size": 19.7
