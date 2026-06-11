@@ -13,7 +13,7 @@
     "recipe_options": {
         "ctx_size": 0,
         "llamacpp_args": "--temp 1.0 --top-p 0.95 --top-k 20 --min-p 0.00 --no-context-shift --keep 0 -b 4096 -ub 1024 --chat-template-kwargs '{\"enable_thinking\": false}'",
-        "llamacpp_backend": "vulkan"
+        "llamacpp_backend": "auto"
     },
     "size": 19.7
 }
