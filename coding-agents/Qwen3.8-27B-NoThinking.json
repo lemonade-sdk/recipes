@@ -1,0 +1,19 @@
+{
+  "checkpoints": {
+    "main": "unsloth/Qwen3.8-27B-GGUF:Qwen3.8-27B-UD-Q4_K_XL.gguf",
+    "mmproj": "unsloth/Qwen3.8-27B-GGUF:mmproj-F16.gguf"
+  },
+  "model_name": "user.Qwen3.8-27B-NoThinking",
+  "labels": [
+    "vision",
+    "hot",
+    "tool-calling"
+  ],
+  "recipe": "llamacpp",
+  "recipe_options": {
+    "ctx_size": 0,
+    "llamacpp_args": "--temp 0.7 --top-p 0.80 --top-k 20 --min-p 0.00 --presence-penalty 1.5 --repeat-penalty 1.0 -b 4096 -ub 1024 --chat-template-kwargs '{\"enable_thinking\": false}'",
+    "llamacpp_backend": "auto"
+  },
+  "size": 18.8
+}
