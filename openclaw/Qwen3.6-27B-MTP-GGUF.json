@@ -1,0 +1,16 @@
+{
+    "checkpoints": {
+        "main": "unsloth/Qwen3.6-27B-MTP-GGUF:Qwen3.6-27B-Q4_K_M.gguf",
+        "mmproj": "unsloth/Qwen3.6-27B-MTP-GGUF:mmproj-F16.gguf"
+    },
+    "model_name": "user.Qwen3.6-27B-MTP-GGUF",
+    "labels": [
+        "vision",
+        "tool-calling"
+    ],
+    "recipe": "llamacpp",
+    "recipe_options": {
+        "ctx_size": 32768
+    },
+    "size": 17.1
+}
