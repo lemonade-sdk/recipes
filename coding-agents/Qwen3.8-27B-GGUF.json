@@ -1,0 +1,24 @@
+{
+  "checkpoints": {
+    "main": "unsloth/Qwen3.8-27B-GGUF:Q8_0",
+    "mmproj": "unsloth/Qwen3.8-27B-GGUF:mmproj-BF16.gguf"
+  },
+  "labels": [
+    "chat",
+    "custom",
+    "vision",
+    "tool-calling",
+    "mtp"
+  ],
+  "recipe": "llamacpp",
+  "recipe_options": {
+    "ctx_size": 262144,
+    "llamacpp_args": "--spec-type draft-mtp --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0.00 --presence-penalty 0.00 --repeat-penalty 1.0 --reasoning-preserve",
+    "merge_args": true,
+    "pinned": false
+  },
+  "registry_source": "huggingface",
+  "size": 27.9,
+  "source": "huggingface",
+  "model_name": "user.Qwen3.8-27B-MTP-Coding"
+}

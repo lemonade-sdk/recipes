@@ -1,0 +1,21 @@
+{
+  "checkpoints": {
+    "main": "unsloth/DeepSeek-V4-Flash-0731-GGUF:UD-IQ3_S"
+  },
+  "labels": [
+    "custom",
+    "chat",
+    "tool-calling"
+  ],
+  "recipe": "llamacpp",
+  "recipe_options": {
+    "ctx_size": 1048576,
+    "llamacpp_args": "-ctk q8_0 -ctv q8_0 --temperature 1.0 --top-p 0.95",
+    "merge_args": true,
+    "pinned": false
+  },
+  "registry_source": "huggingface",
+  "size": 108.1,
+  "source": "huggingface",
+  "model_name": "user.DeepSeek-V4-Flash-0731-GGUF"
+}
