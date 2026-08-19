@@ -14,7 +14,6 @@
   "recipe_options": {
     "ctx_size": 262144,
     "llamacpp_args": "--spec-type draft-mtp --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0.00 --presence-penalty 0.00 --repeat-penalty 1.0 --reasoning-preserve",
-    "llamacpp_backend": "rocm",
     "merge_args": true,
     "pinned": false
   },
