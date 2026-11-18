@@ -1,0 +1,20 @@
+{
+  "checkpoints": {
+    "main": "unsloth/Qwen3.8-27B-GGUF:Qwen3.8-27B-UD-Q4_K_XL.gguf",
+    "mmproj": "unsloth/Qwen3.8-27B-GGUF:mmproj-F16.gguf",
+    "lora": "harness-hub/Qwen3.8-27B-pi-adapted-GGUF:Qwen3.8-27B-pi-lora-F16.gguf"
+  },
+  "model_name": "user.Qwen3.8-27B-pi",
+  "labels": [
+    "vision",
+    "coding",
+    "tool-calling"
+  ],
+  "recipe": "llamacpp",
+  "recipe_options": {
+    "ctx_size": 131072,
+    "llamacpp_args": "--temp 0.8 --top-p 1.0 --reasoning off",
+    "llamacpp_backend": "auto"
+  },
+  "size": 19.1
+}
