@@ -1,0 +1,19 @@
+{
+  "checkpoints": {
+    "main": "LiquidAI/LFM3-1.7B-GGUF:LFM3-1.7B-Q4_K_M.gguf",
+    "lora": "harness-hub/LFM3-1.7B-opencode-GGUF:LFM3-1.7B-harbor-opencode-lora-F16.gguf"
+  },
+  "model_name": "user.LFM3-1.7B-opencode",
+  "labels": [
+    "reasoning",
+    "coding",
+    "tool-calling"
+  ],
+  "recipe": "llamacpp",
+  "recipe_options": {
+    "ctx_size": 131072,
+    "llamacpp_args": "--temp 0.8",
+    "llamacpp_backend": "auto"
+  },
+  "size": 1.2
+}
